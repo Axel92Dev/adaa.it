@@ -78,7 +78,7 @@ const config = yaml.load(fs.readFileSync('src/config.yaml', 'utf8')) as {
   analytics?: unknown;
 };
 
-const DEFAULT_SITE_NAME = 'Website';
+const DEFAULT_SITE_NAME = 'ADAA';
 
 const getSite = () => {
   const _default = {
@@ -116,7 +116,7 @@ const getMetadata = () => {
 
 const getI18N = () => {
   const _default = {
-    language: 'en',
+    language: 'it',
     textDirection: 'ltr',
   };
 
