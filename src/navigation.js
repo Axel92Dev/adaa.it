@@ -1,26 +1,40 @@
 import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 
+const diventaSocioLink = getPermalink('/diventa-socio');
+
 export const headerData = {
   links: [
     {
-      text: 'Landing',
+      text: 'L\'associazione',
       links: [
         {
-          text: 'Sass',
+          text: 'Chi siamo',
+          href: getPermalink('/chi-siamo'),
+        },
+        {
+          text: 'Amministrazione Trasparente',
           href: getPermalink('/landing/saas'),
         },
         {
-          text: 'Startup',
+          text: 'Il consiglio direttivo',
           href: getPermalink('/landing/startup'),
         },
         {
-          text: 'Mobile App',
+          text: 'Diventa Socio',
+          href: diventaSocioLink,
+        },
+        {
+          text: 'Privacy policy',
+          href: getPermalink('/privacy'),
+        },
+        {
+          text: 'Media',
           href: getPermalink('/landing/mobile-app'),
         },
       ],
     },
     {
-      text: 'Pages',
+      text: 'Progetti',
       links: [
         {
           text: 'Features (Anchor Link)',
@@ -53,7 +67,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Blog',
+      text: 'News',
       links: [
         {
           text: 'Blog List',
@@ -78,15 +92,15 @@ export const headerData = {
       ],
     },
     {
-      text: 'Widgets',
-      href: '#',
+      text: 'Spazio Magazine',
+      href: getPermalink('/spazio-magazine'),
     },
     {
-      text: 'Contact',
-      href: '#',
+      text: 'Contatti',
+      href: getPermalink('/contatti'),
     },
   ],
-  actions: [{ type: 'button', text: 'Download', href: 'https://github.com/onwidget/astrowind' }],
+  actions: [{ type: 'button', text: 'Area Soci', href: 'https://www.adaa.it/area-soci/' }],
 };
 
 export const footerData = {
@@ -114,13 +128,12 @@ export const footerData = {
       ],
     },
     {
-      title: 'Support',
+      title: 'Supportaci',
       links: [
-        { text: 'Docs', href: '#' },
-        { text: 'Community Forum', href: '#' },
-        { text: 'Professional Services', href: '#' },
-        { text: 'Skills', href: '#' },
-        { text: 'Status', href: '#' },
+        { text: 'Diventa Socio', href: diventaSocioLink },
+        { text: 'Abbonati a Spazio Magazine', href: '#' },
+        { text: 'Dona il 5x1000', href: '#' },
+        { text: 'Finanzia un progetto', href: '#' },
       ],
     },
     {
@@ -137,18 +150,17 @@ export const footerData = {
     },
   ],
   secondaryLinks: [
-    { text: 'Terms', href: getPermalink('/terms') },
     { text: 'Privacy Policy', href: getPermalink('/privacy') },
   ],
   socialLinks: [
-    { ariaLabel: 'Twitter', icon: 'tabler:brand-twitter', href: '#' },
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
+    { ariaLabel: 'Twitter', icon: 'tabler:brand-twitter', href: 'https://twitter.com/adaa_stra' },
+    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/adaa_aps' },
+    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://www.facebook.com/associazioneADAA' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },
+    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/Axel92Dev' },
   ],
   footNote: `
-    <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)]"></span>
-    Made by <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/"> onWidget</a> · All rights reserved.
+    <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm bg-[url(https://assets.super.so/66eb3abc-cf75-446b-b800-16d8ce1c0c35/uploads/favicon/20edcda1-5f92-4b0a-b1cf-a3d6c6198b34.png)]"></span>
+    Made by <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://aleromano.com/"> Alessandro Romano</a>
   `,
 };

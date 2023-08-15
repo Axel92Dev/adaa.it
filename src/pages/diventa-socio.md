@@ -1,5 +1,7 @@
-Iscrizioni
-==========
+---
+title: 'Diventa Socio'
+layout: '~/layouts/MarkdownLayout.astro'
+---
 
 **ISCRIZIONE ALL’ASSOCIAZIONE PER LA DIVULGAZIONE ASTRONOMICA ED ASTRONAUTICA**
 

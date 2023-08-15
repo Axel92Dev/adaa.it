@@ -1,5 +1,7 @@
-L’Associazione
-==============
+---
+title: 'Chi siamo'
+layout: '~/layouts/MarkdownLayout.astro'
+---
 
 I primi 5 anni di attività sono volati, abbiamo chiuso l’anno appena trascorso con una ragionevole fiducia, fondata sull’importante lavoro svolto in tutte le aree (organizzazione, volontari, cultura, animazione territoriale) e qui accuratamente documentato.
 
@@ -13,14 +15,4 @@ Questo lavoro è stato estremamente prezioso e ricco di indicazioni, che saranno
 
 Nel continuare, pur con qualche fatica, il lavoro quotidiano, ci sentiamo sostenuti da una convinzione: nelle pagine che seguono, nel lavoro e nei legami che esse documentano, sono contenuti elementi che ci consentono di affrontare con fiducia le sfide inedite che abbiamo di fronte.
 
- Lettera del Presidente | Luigi Pizzimenti
-
-*   [Il consiglio direttivo](https://www.adaa.it/direttivo/)
-    
-*   [Iscrizioni](https://www.adaa.it/iscriviti/)
-    
-*   [Media](https://www.adaa.it/media/)
-    
-*   [Cinque per Mille](https://www.adaa.it/cinque-per-mille/)
-    
-*   [Nuovo logo](https://www.adaa.it/nuovo-logo/)
+Lettera del Presidente | Luigi Pizzimenti

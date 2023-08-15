@@ -83,7 +83,7 @@ const DEFAULT_SITE_NAME = 'ADAA APS';
 const getSite = () => {
   const _default = {
     name: DEFAULT_SITE_NAME,
-    site: undefined,
+    site: 'adaa.it',
     base: '/',
     trailingSlash: false,
 
@@ -134,7 +134,7 @@ const getI18N = () => {
 
 const getAppBlog = () => {
   const _default = {
-    isEnabled: false,
+    isEnabled: true,
     postsPerPage: 6,
     post: {
       isEnabled: true,

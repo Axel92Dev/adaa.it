@@ -1,6 +1,6 @@
 {
-  "name": "@onwidget/astrowind",
-  "description": "A template to make your website using Astro + Tailwind CSS.",
+  "name": "@adaa/website",
+  "description": "ADAA APS official website",
   "version": "0.9.9",
   "private": true,
   "scripts": {
