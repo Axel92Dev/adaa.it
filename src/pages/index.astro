@@ -90,11 +90,39 @@ const metadata = {
     ]}
   /> -->
 
+  <Content
+    tagline="PLANETARIO ITINERANTE"
+    title="Uno strumento didattico straordinario"
+    items={[
+      {
+        title: 'Spettacolari animazioni sferiche in full HD',
+        description: 'Lorem ipsum',
+      },
+      {
+        title: 'Lezioni e spettacoli specifici per ogni tipo di pubblico',
+        description: 'Lorem Ipsum',
+      },
+      {
+        title: 'Soluzioni personalizzate a costi contenuti',
+        description: 'Lorem Ipsum',
+      },
+    ]}
+    image={{
+      src: import('~/assets/images/planetario.jpg'),
+      alt: 'Alsat',
+    }}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
   <!-- Content Widget **************** -->
 
   <Content
     tagline="ALSAT#1 | STRATOSPHERA"
     title="Il satellite Cubesat di ADAA nello spazio!"
+    isAfterContent
     items={[
       {
         title: 'Quota di 40.000 metri',
