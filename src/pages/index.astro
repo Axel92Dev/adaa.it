@@ -45,7 +45,7 @@ const metadata = {
 
   <!-- Features Widget *************** -->
 
-  <Features
+  <!-- <Features
     id="features"
     tagline="Features"
     title="What you get with AstroWind"
@@ -88,41 +88,35 @@ const metadata = {
         icon: 'tabler:bulb',
       },
     ]}
-  />
+  /> -->
 
   <!-- Content Widget **************** -->
 
   <Content
-    tagline="Inside template"
-    title="And what's inside? ..."
+    tagline="ALSAT#1 | STRATOSPHERA"
+    title="Il satellite Cubesat di ADAA nello spazio!"
     items={[
       {
-        title: 'Per ei quaeque sensibus',
+        title: 'Quota di 40.000 metri',
         description:
-          'Ex usu illum iudico molestie. Pro ne agam facete mediocritatem, ridens labore facete mea ei. Pro id apeirian dignissim.',
+          'Durante il raggiungimento della quota di 40.000 metri inizieranno i test, in particolare come prima cosa l’avvio del software e hardware di gestione (OBC) e la verifica di tutti gli automatismi riguardo all’accensione del microchip e relativo sensore di radiazioni, registrazione e trasmissione dei dati riguardanti l’esperimento in tempo reale.',
       },
       {
-        title: 'Cu imperdiet posidonium sed',
+        title: 'Oltre i 40.000 metri',
         description:
-          'Amet utinam aliquando ut mea, malis admodum ocurreret nec et, elit tibique cu nec. Nec ex maluisset inciderint, ex quis.',
+          "Il pallone esploderà ed il carico rientrerà a terra grazie a un paracadute. L'esperimento sarà svolto in sicurezza, previa richiesta delle opportune autorizzazioni all’ENAC, in un luogo opportunamente scelto: dovrà essere distante da centri abitati, aeroporti, infrastrutture critiche come strade e edifici governativi.",
       },
       {
-        title: 'Nulla omittam sadipscing mel ne',
+        title: 'Un grande concorso',
         description:
-          'At sed possim oporteat probatus, justo graece ne nec, minim commodo legimus ut vix. Ut eos iudico quando soleat, nam modus.',
+          'Coinvolgere università e istituti scolastici in un grande concorso che richiede la comunicazione diretta degli studenti con il satellite in transito sopra l’istituto, o direttamente presso la nostra sede. Il premio finale del concorso sarà consegnato direttamente dalle mani di una personalità del mondo astronautico',
       },
     ]}
     image={{
-      src: import('~/assets/images/caos.jpg'),
-      alt: 'Colorful Image',
+      src: import('~/assets/images/alsat.jpg'),
+      alt: 'Alsat',
     }}
   >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Ad vix debet docendi</h3>
-       Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos etiam regione ut, persius eripuit quo id. Sit te
-      euismod tacimates.
-    </Fragment>
-
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
@@ -135,27 +129,22 @@ const metadata = {
     isAfterContent
     items={[
       {
-        title: 'Per ei quaeque sensibus',
+        title:
+          'Gl studi preparatori e la collaborazione con le Università (Politecnico di Milano e Supsi, Svizzera) ha già prodotto diverse Tesi Universitarie coinvolgendo numerosi studenti e dottorandi.',
       },
       {
-        title: 'Cu imperdiet posidonium sed',
+        title: 'Signal processing per sistemi LEO',
       },
       {
-        title: 'Nulla omittam sadipscing mel ne',
+        title: '15 settembre 2018 presso Ceriano Laghetto',
       },
       {
-        title: 'Per ei quaeque sensibus',
-      },
-      {
-        title: 'Cu imperdiet posidonium sed',
-      },
-      {
-        title: 'Nulla omittam sadipscing mel ne',
+        title: "il testimonial del progetto è stato l'astronauta Alfred Worden",
       },
     ]}
     image={{
-      src: import('~/assets/images/vintage.jpg'),
-      alt: 'Vintage Image',
+      src: import('~/assets/images/alsat-proto.jpg'),
+      alt: 'Rendering Alsat',
     }}
   >
     <Fragment slot="bg">
