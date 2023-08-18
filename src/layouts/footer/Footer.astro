@@ -19,11 +19,10 @@ export interface Props {
   links: Array<Links>;
   secondaryLinks: Array<Link>;
   socialLinks: Array<Link>;
-  footNote?: string;
   theme?: string;
 }
 
-const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme = 'light' } = Astro.props;
+const { socialLinks = [], secondaryLinks = [], links = [], theme = 'light' } = Astro.props;
 ---
 
 <footer class:list={[{ dark: theme === 'dark' }, 'relative border-t border-gray-200 dark:border-slate-800 not-prose']}>
@@ -92,7 +91,11 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
       }
 
       <div class="text-sm mr-4 dark:text-slate-400">
-        <Fragment set:html={footNote} />
+        <span
+          class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm bg-[url(https://assets.super.so/66eb3abc-cf75-446b-b800-16d8ce1c0c35/uploads/favicon/20edcda1-5f92-4b0a-b1cf-a3d6c6198b34.png)]"
+        ></span>
+         Made by
+        <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://aleromano.com/"> Alessandro Romano</a>
       </div>
     </div>
   </div>
