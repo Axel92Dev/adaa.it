@@ -1,4 +1,4 @@
-import { getPermalink, getBlogPermalink } from './utils/permalinks';
+import { getPermalink, getBlogPermalink } from '../../utils/permalinks';
 
 const diventaSocioLink = getPermalink('/diventa-socio');
 
