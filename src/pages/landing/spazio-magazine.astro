@@ -10,36 +10,17 @@ import CallToAction from '~/components/widgets/CallToAction.astro';
 import { headerData } from '~/layouts/header/headerData';
 
 const metadata = {
-  title: 'Saas Landing Page',
+  title: 'Spazio Magazine',
 };
 ---
 
 <Layout metadata={metadata}>
-  <Fragment slot="header">
-    <Header
-      {...headerData}
-      actions={[
-        {
-          type: 'ghost',
-          text: 'Login',
-          href: '#',
-        },
-        {
-          type: 'primary',
-          text: 'Sign Up',
-          href: '#',
-        },
-      ]}
-      isSticky
-    />
-  </Fragment>
-
   <!-- Hero2 Widget ******************* -->
 
   <Hero2
-    callToAction={{ text: 'Get template', href: 'https://github.com/onwidget/astrowind', icon: 'tabler:download' }}
-    callToAction2={{ text: 'Learn more', href: '#features' }}
-    image={{ src: import('~/assets/images/hero.png'), alt: 'AstroWind Hero Image' }}
+    callToAction={{ text: 'Abbonati', href: 'https://github.com/onwidget/astrowind', icon: 'tabler:download' }}
+    callToAction2={{ text: 'Scrivi un articolo', href: '#features' }}
+    image={{ src: import('~/assets/images/spazio-magazine.png'), alt: 'Spazio Magazine Cover' }}
   >
     <Fragment slot="title">
       Free template for <br />

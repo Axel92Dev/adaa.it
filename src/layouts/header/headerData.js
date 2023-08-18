@@ -93,7 +93,7 @@ export const headerData = {
     },
     {
       text: 'Spazio Magazine',
-      href: getPermalink('/spazio-magazine'),
+      href: getPermalink('/landing/spazio-magazine'),
     },
     {
       text: 'Contatti',
